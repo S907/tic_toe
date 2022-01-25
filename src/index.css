@@ -18,6 +18,10 @@ ol, ul {
 
 .status {
   margin-bottom: 10px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 2px;
+
 }
 
 .square {
@@ -41,6 +45,18 @@ ol, ul {
 
 .kbd-navigation .square:focus {
   background: #ddd;
+}
+
+.main_header{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.main_header .header_content{
+  border: 2px solid;
+  padding: 1rem;
+  margin-right: 2rem;
 }
 
 .game {
